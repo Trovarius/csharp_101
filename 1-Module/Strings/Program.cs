@@ -59,5 +59,33 @@ namespace Strings
             Console.WriteLine(char2);
             Console.WriteLine(char3);
         }
+
+        public void NullStrings()
+        {
+            string s1 = "Hello";
+            string s2 = null;
+
+            Console.WriteLine(s1 + s2);
+
+            if(s2 == null)
+            {
+                s2 = "World";
+            }
+            
+            Console.WriteLine(s1 + s2);
+
+            s2 = null;
+
+            if (string.IsNullOrEmpty(s2))
+             s2 = "Thunder";
+            
+            Console.WriteLine(s1 + s2);
+            
+            s2 = null;
+
+            s2 = string.IsNullOrEmpty(s2) ? "ternário" : s2;
+            
+            Console.WriteLine(s1 + s2);            
+        }
     }
 }
