@@ -12,7 +12,11 @@ o [SDK do .NET CORE](https://www.microsoft.com/net/learn/get-started/windows);
 
 ## Criando projetos
 
-Os projetos devem ser criados utilizando a linha de comando cmd (windows) ou bash (linux).
+* Crie uma pasta pa o seu projeto
+* Dentro da pasta abara o terminal CMD (Windows) ou Bash (Linux)
+* execute o comando 
+    > dotnet new console 
+* um projeto do tipo console será criado com o nome da pasta
 
 
 ## Glossario
