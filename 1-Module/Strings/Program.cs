@@ -48,5 +48,16 @@ namespace Strings
             Console.WriteLine(string2);
             Console.WriteLine(string3);
         }
+
+        public void Chars()
+        {
+            char char1 = 'a';
+            char char2 = 'b';
+
+            char char3 = "Toda string é um ARRAY de chars, pegando a letra \"T\""[0];
+            Console.WriteLine(char1);
+            Console.WriteLine(char2);
+            Console.WriteLine(char3);
+        }
     }
 }
