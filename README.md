@@ -10,3 +10,6 @@ Para seguir com o curso basta baixar um editor de código de sua prefreência, s
 o [SDK do .NET CORE](https://www.microsoft.com/net/learn/get-started/windows);
 
 
+## Criando projetos
+
+Os projetos devem ser criados utilizando a linha de comando cmd (windows) ou bash (linux).
