@@ -72,5 +72,61 @@ namespace Numbers
             double a = (2.50 * 2.50 ) * Math.PI;
             Console.WriteLine(a);
         }
+
+        public double AreaCirulo(double valorArea)
+        {
+            if(valorArea < 0) return 0;
+
+            double valor1 = valorArea;
+            double valor2 = valorArea;
+            double PI = 3.14;
+
+            double resultado = valor1 * valor2 * PI;
+            return  resultado;
+        }
+
+        public void AreaCirulo_AreaValendo2_Resultado12()
+        {
+            double valorArea = 2;
+            var resultado = AreaCirulo(2);
+
+            if(resultado == 6)
+                Console.WriteLine("Funcionou com 2 resultado 6");
+            else
+                Console.WriteLine("ERRO: Valor esperado de 6 mas retornou " + resultado);
+        }
+
+        public void AreaCirulo_AreaValendo3_Resultado36()
+        {
+            double valorArea = 2;
+            var resultado = AreaCirulo(2);
+
+            if(resultado == 6)
+                Console.WriteLine("Funcionou com 2 resultado 36");
+            else
+                Console.WriteLine("ERRO: Valor esperado de 6 mas retornou " + resultado);
+        }
+
+        public void AreaCirulo_AreaValendo0_Resultado3_14()
+        {
+            double valorArea = 2;
+            var resultado = AreaCirulo(2);
+
+            if(resultado == 6)
+                Console.WriteLine("Funcionou com 2 resultado 6");
+            else
+                Console.WriteLine("ERRO: Valor esperado de 6 mas retornou " + resultado);
+        }
+
+         public void AreaCirulo_AreaValendoX_ResultadoY(double x, double y)
+        {
+            double valorArea = 2;
+            var resultado = AreaCirulo(2);
+
+            if(resultado == 6)
+                Console.WriteLine("Funcionou com 2 resultado 6");
+            else
+                Console.WriteLine("ERRO: Valor esperado de 6 mas retornou " + resultado);
+        }
     }
 }

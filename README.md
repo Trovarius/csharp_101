@@ -32,3 +32,8 @@ o [SDK do .NET CORE](https://www.microsoft.com/net/learn/get-started/windows);
 * **bin** - pasta contendo os binários da aplicação após a compilação
     * **Debug** - pasta contendo os arquivos binários compilados no formato de DEBUG
     * **Release** - pasta contendo os arquivos binários compilados no formato de Release (esses arquivos serão levados a produção)
+
+
+## Objetivo - Modulo 1
+
+* Passar 

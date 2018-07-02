@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Strings
 {
@@ -6,10 +7,12 @@ namespace Strings
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("hello World");
+
             string string1 = "Hello";
             string string2 = "World";
 
-            string string3 = string1 + string2;
+            string string3 = string1 + " " + string2;
 
             Console.WriteLine(string3);
         }
@@ -83,9 +86,16 @@ namespace Strings
             
             s2 = null;
 
-            s2 = string.IsNullOrEmpty(s2) ? "ternário" : s2;
-            
+            s2 = string.IsNullOrEmpty(s2) 
+                    ? "ternário" 
+                    : s2;
+
             Console.WriteLine(s1 + s2);            
+        }
+
+        public void FormatNumbers()
+        {
+            throw new NotImplementedException();
         }
     }
 }

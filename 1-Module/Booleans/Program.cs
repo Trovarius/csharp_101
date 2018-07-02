@@ -14,5 +14,7 @@ namespace Booleans
            Console.WriteLine(bool2);
            Console.WriteLine(bool3);
         }
+
+        public void 
     }
 }
