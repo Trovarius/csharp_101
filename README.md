@@ -19,6 +19,27 @@ o [SDK do .NET CORE](https://www.microsoft.com/net/learn/get-started/windows);
 * um projeto do tipo console será criado com o nome da pasta
 
 
+## Topicos
+### Dia 1
+* Tipos Básicos: NUMBER(INT, FLOAT, DECIMAL), STRING, BOOL, ENUM, Arrays, metodos, DateTime
+* Loops: While, Do..While, For, ForEach, Switch, if
+* Exercicios: AreaObjeto, Concatenação String, Condicional, Leitura de Array
+* Unit Test: inicio
+
+### Dia 2
+* ATM : Criação com testes unitários
+* Genric: List, Dictionary, NameValueCollection
+* Nullable
+
+### Dia 3
+* OO (ATM) : Criação de classes, acessibilidade de objetos, herança, overload, polimorfismo
+
+### Dia 4
+* OO (ATM) : Validações com OO, Separação de conceitos, estrutura de código
+
+### Dia 5
+* Dojo: Escolher o problema
+
 ## Glossario
 
 ### Extensões
