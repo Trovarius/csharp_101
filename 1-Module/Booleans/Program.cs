@@ -258,6 +258,58 @@ namespace Booleans
             var format = ADD1.ToString("yyyy/MM/dd");
             //http://www.csharp-examples.net/string-format-datetime/
         }
+
+        public void metodo1()
+        {
+
+        }
+
+        public string metodo2()
+        {
+            return "";
+        }
+
+        private string metodo3()
+        {
+            return "";
+        }
+
+        private string metodo4(string a)
+        {
+            return a + " valor de a mais isso aqui";
+        }
+
+        private string metodo4(string a, int i)
+        {
+            i++;
+            return a + " valor de a mais isso aqui";
+        }
+
+        private string metodo5(string a, int[] i)
+        {
+            
+            return a + " valor de a mais isso aqui" + i.Length.ToString();
+        }
+
+        private string metodo6(string a, params int[] i)
+        {
+            
+            return a + " valor de a mais isso aqui" + i.Length.ToString();
+        }
+
+        private string metodo7(string a, int i = 0)
+        {
+            i++;
+            return a + " valor de a mais isso aqui";
+        }
+
+        private string metodo8(ref int a)
+        {
+            a = 0;
+            return a.ToString();
+        }
+        
+        const int CONSTANTE = 0; 
     }
 }
 
