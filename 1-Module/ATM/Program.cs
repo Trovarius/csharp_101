@@ -54,4 +54,11 @@ namespace ATM
             }
         }
     }
+
+    public class ContaCorrente
+    {
+        public string agency = "";
+        public string id ="";
+        public float balance = 0.0f;
+    }
 }
